@@ -1,0 +1,11 @@
+Character List:
+MC – A college student who dreams of game development. No specified face, gender, etc.
+Emmy – A college student studying BS Mathematics with a slight interest in game development. Friend of MC. Aids MC in game creation, serves as tutorial giver.
+Duckie – A rubber duck gifted to the MC by Emmy. Can give tips in puzzles.
+
+Puzzles:
+Pre-Development: Budget Lists for Assets and Basic Necessities. Focuses on Basic Arithmetic.
+Coding: Programming represented as Mathematical Logic. Presented as Jigsaw Puzzle.
+Asset Creation: Matching Game. Focuses on Artwork, though music can also be used.
+(do music if time allows)
+Pre-Release: Focuses on basic calculus? Compares functions at least.
