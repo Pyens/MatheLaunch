@@ -1,11 +1,39 @@
 Character List:
 MC – A college student who dreams of game development. No specified face, gender, etc.
 Emmy – A college student studying BS Mathematics with a slight interest in game development. Friend of MC. Aids MC in game creation, serves as tutorial giver.
-Duckie – A rubber duck gifted to the MC by Emmy. Can give tips in puzzles.
+Duckie – A rubber duck gifted to the MC by Emmy. Can give tips in puzzles (Minigames 2-4). (Optional)
 
 Puzzles:
-Pre-Development: Budget Lists for Assets and Basic Necessities. Focuses on Basic Arithmetic.
-Coding: Programming represented as Mathematical Logic. Presented as Jigsaw Puzzle.
-Asset Creation: Matching Game. Focuses on Artwork, though music can also be used.
-(do music if time allows)
-Pre-Release: Focuses on basic calculus? Compares functions at least.
+Pre-Development: Budget Lists for Assets and Basic Necessities. Focuses on Basic Arithmetic. (1 tutorial, 1 proper)
+(S) Coding: Programming represented as Mathematical Logic. Presented as Jigsaw Puzzle. (1 tutorial, 3 proper)
+(S) Asset Creation: Multiple choice parang sagot lang kung anong type ng geography sa screen. (1 tutorial, 3 proper)
+Pre-Release: Compare ng functions, hahanapin mo kung ano sa dalawa decreasing, increasing, ganun
+Gandahan yung Menu if pwede
+Lagyan ng pong if may oras
+
+Assets to make/acquire
+Emma Sprites:
+Emma Happy
+Emma Sad
+Emma Normal
+Emma Thinking
+Emma Disbelief (Can be replaced with Emma Sad)
+Emma Hello (Can be replaced with Emma Happy)
+Emma GiveDuckie (Only if Duckie is Implemented, can be replaced with Emma Happy)
+
+Backgrounds
+bg black
+bg restaurant (kahit yung placeholder nalang lol)
+bg bedroommorning
+bg bedroomnoon
+bg bedroomnight
+bg bedroomparty
+bg exhibitmorning
+bg exhibitlete
+bg cafemorning
+bg cafelate
+bg celebrate
+
+Misc
+Logo
+Title
