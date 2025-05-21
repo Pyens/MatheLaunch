@@ -20,6 +20,7 @@ Emma Thinking
 Emma Disbelief (Can be replaced with Emma Sad)
 Emma Hello (Can be replaced with Emma Happy)
 Emma GiveDuckie (Only if Duckie is Implemented, can be replaced with Emma Happy)
+Emma veryhappy
 
 Backgrounds
 bg black
