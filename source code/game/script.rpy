@@ -49,7 +49,7 @@ label start:
         e "How about a mobile game? Something simple too like pong. Just so you can get used to it first."
         pov "Pong? Uhh... Sure, why not?"
 
-        scene bg bedroommorning
+        scene bg bedroom
         show emma thinking
 
         e "So, first things first. You cool with math?"
@@ -84,14 +84,14 @@ label start:
         pov "Uhh... I want..."
         with flashbulb
 
-        scene bg bedroomnight
+        scene bg bedroom
         show emma tired
         e "Well... that was a lot."
         e "We've got a bunch of plans here now, but it's up to you to decide what you want."
         e "Prepare a timeline for us. Keep in mind though, we only have {color=#B30000}one week{/color}."
 
-    #Minigame 1 Here, should end with Themes, Powerups, and Music.
-
+        ##minigame 1 here
+        
         e "So this is what you came up with?"
         e "Are you sure? Really, really sure?"
         e "Well, alright then. It's your game after all."
@@ -140,32 +140,24 @@ label start:
         e "Finee, I guess I can teach you."
         e "So, let's start with the basics."
         #EXPLAIN MATH LOGIC HERE
+        show emma normal
         e "So, you get it now?"
        
     label notmoron:  
         show emma happy
         e "Good. Let's go to your place and get started then."
         e "Don't worry too much, it's just pong."
-        # If Duckie isn't finished, remove this portion
-        scene bg bedroommorning
-        show emma giveduckie
-        e "Here, take this!"
-        pov "Huh? What is this?"
-        pov "A rubber duck?"
-        e "Yeah! It'll help you a lot with programming."
-        e "Trust me! Just try it out when you're having trouble."
-        e "Just talk to it, and it'll do its magic."
 
     #Minigame 2 Tutorial Here
 
-        scene bg bedroomnoon
+        scene bg bedroom
         show emma normal
         e "See? That wasn't so hard was it?"
         e "Now, let's move on to something a bit more advanced."
     
     #Minigame 2 Proper Here Day 1 -3
 
-        scene bg bedroomnight
+        scene bg bedroom
         show emma tired
         e "That took a while, but see? Progress! Just a bit left we can leave for tomorrow."
         show emma greet
@@ -180,7 +172,7 @@ label start:
         "{b}DAY 4 - 4 DAYS LEFT{/b}"
 
     #Day 4
-        scene bg exhibitmorning
+        scene bg exhibit
         with fade
         show emma greet
         e "Yo! [inputname]!"
@@ -197,7 +189,7 @@ label start:
 
         #Explain Geometries Here.
 
-        scene bg exhibitlate
+        scene bg exhibit
         show emma happy
         e "That was fun!"
         e "Did you have fun too?"
@@ -236,7 +228,7 @@ label start:
         "{i}With some inspiration, We could get started with the art tomorrow.{/i}"
         "DAY 5 - 3 DAYS LEFT"
 
-        scene bg cafemorning
+        scene bg cafe
         with fade
         show emma greet
         e "Ey, [inputname]!"
@@ -255,14 +247,14 @@ label start:
 
     #Minigame 3 Tutorial and Proper Here Day 5 - 6
 
-        scene bg cafelate
+        scene bg cafe
         with fade
         show emma tired
         e "I am so not an artist."
         e "But hey, we got it!"
         e "The game looks great! Just some small things to take care of, and we're done!"
         pov "What things?"
-        show emma thoughtful
+        show emma thinking
         e "Just where to release the game."
         e "I mean, you want to release it right?"
         pov "But who would play it? I mean, it's just pong."
@@ -284,7 +276,7 @@ label start:
         show emma happy
         e "Finally, we're done!"
         e "Just gotta release the thing!"
-        show emma thoughtful
+        show emma thinking
         e "So, we gotta decide where and when to release it, and how to market it."
         pov "Market it?"
         show emma normal
@@ -306,7 +298,7 @@ label start:
         with fade
         "{i}A FEW DAYS LATER.{/i}"
 
-        scene bg bedroomparty
+        scene bg bedroom
         with fade
         "THREE!"
         "TWO!"
@@ -329,8 +321,9 @@ label start:
         e "Hah! Sure you did!"
 
     label thank:
+        e "Couldn't have done this without you!"
         e "That's that!"
-        e "Let's make another game together!"
+        e "Now, let's make another game together!"
         pov "...Sure."
         pov "Not right now though."
         e "Of course not!"
@@ -342,9 +335,9 @@ label start:
         "{i}And with that, my dream came true.{/i}"
         "{i}Together with Emma, I'll go even further.{/i}"
         "{i}We'll make games that shake the world!{/i}"
-        #remove scene if not finished
-        scene bg celebrate
-        "{i}Beginning with pong, we'll make great games together, as comrades.{/i}"
+        #include scene if bg celebrate finished
+        #scene bg celebrate
+        #"{i}Beginning with pong, we'll make great games together, as comrades.{/i}"
         "{b}END{/b}"
 
         return

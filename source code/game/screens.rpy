@@ -362,6 +362,9 @@ screen main_menu():
     ## contents of the main menu are in the navigation screen.
     use navigation
 
+    add "gui/overlay/title.png" align(1.0,0.985)
+    add "gui/overlay/version.png" align(0.78,1.0)
+
     if gui.show_name:
 
         vbox:
@@ -563,6 +566,7 @@ screen about():
                 text "[gui.about!t]\n"
 
             text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+
 
 
 style about_label is gui_label
