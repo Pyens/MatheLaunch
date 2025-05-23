@@ -13,24 +13,25 @@ Lagyan ng pong if may oras
 
 Assets to make/acquire
 Emma Sprites:
-Emma Happy
-Emma Sad
-Emma Normal
+/ Emma Happy
+/ Emma Sad
+/ Emma Normal
 Emma Thinking
-Emma Disbelief (Can be replaced with Emma Sad)
-Emma Hello (Can be replaced with Emma Happy)
-Emma GiveDuckie (Only if Duckie is Implemented, can be replaced with Emma Happy)
-Emma veryhappy
+/ Emma Disbelief (Can be replaced with Emma Sad)
+Emma Greet (Can be replaced with Emma Happy)
+*Emma GiveDuckie (Only if Duckie is Implemented, can be replaced with Emma Happy)
+/ Emma veryhappy
+/ Emma Tired
 
 Backgrounds
-bg black
+/ bg black
 bg restaurant (kahit yung placeholder nalang lol)
 bg bedroommorning
 bg bedroomnoon
 bg bedroomnight
 bg bedroomparty
 bg exhibitmorning
-bg exhibitlete
+bg exhibitlate
 bg cafemorning
 bg cafelate
 bg celebrate

@@ -1,11 +1,10 @@
 *Refer to planned_additions.txt
-- SCRIPT OUTGAME (done excluding topic explainations)
-- MINIGAMES (assigned)
+- SCRIPT OUTGAME (done excluding topic explanations)
+- MINIGAMES (2/4)
 - SCRIPT IN MINIGAMES
-- ART 
+- ART (6/8 emma sprites done)
 - MUSIC (hanap nalang open source)
-- TRAILER
-- PRESENTATION (inc. trailer)
+- TRAILER (if kaya)
 - WRITE-UP
 
 DEADLINE: MAY 23 (Friday) - 11:59PM
