@@ -1,0 +1,178 @@
+{i}All my life, I've always had a dream.{/i}
+{i}To make a game.{/i}
+{i}I've always played video games. From Tetris, to Mario, to Call of Duty, to Genshin Impact, I've played all sorts of games.{/i}
+{i}And someday, I want to make a game of my own.{/i}
+So why not just do it?
+Huh?
+You heard me. Why not just do it?
+Emma's a friend of mine. She takes BS Mathematics, and she's honestly a genius. She's always helped me out with everything, and she's a confident go getter who always pushes me to do my best. But still...
+What do you mean? I don't know anything about making games!
+Maybe... but I do. I played around modding for a while.
+And I can teach you everything I know.
+I mean, you can be taught right?
+Great! This'll be fun! Let's get started!
+Huh? Wait, now?
+Heck yeah! Early bird gets the worm and allat.
+What's with that worried look you got? Don't worry, we'll start with something simple.
+How about a mobile game? Something simple too like pong. Just so you can get used to it first.
+Pong? Uhh... Sure, why not?
+So, first things first. You cool with math?
+I mean, this kinda thing kinda involves a lot of it.
+Umm... I-
+I mean we're here now so I guess you're fine with it!
+So, let's get started!
+Okay, so first things first. You have a computer right?
+I mean, you can't really make a game without one.
+You do?
+Then... well, before we get started, let's set up a timeline.
+How about... one week? I mean, it's just pong ya know? Shouldn't take too long.
+You can add some flair too with that time!
+Speaking of which, what do you want to add?
+A story? Characters? Dark mode? Anything you want really.
+Just make sure to keep it simple. I mean, it's your first game after all.
+I mean, we only have a week. If it's too much, it may be too much to handle.
+So we should brainstorm a bit first.
+Uhh... I want...
+Well... that was a lot.
+We've got a bunch of plans here now, but it's up to you to decide what you want.
+Prepare a timeline for us. Keep in mind though, we only have {color=#B30000}one week{/color}.
+So this is what you came up with?
+Are you sure? Really, really sure?
+Well, alright then. It's your game after all.
+It's already getting late though, so let's call it a night for now.
+Bye!
+{i}Suddenly, me and Emma were working together on a game.{/i}
+{i}It was a dream come true. I have to do my best with this game.{/i}
+{i}I hope I can finish it in time. I mean, it's only pong right?{/i}
+...
+{b}DAY 1 - 7 DAYS LEFT{/b}
+Morning, [inputname]!
+Had a good night's sleep?
+So, you're ready to get started now, right?
+We have a lot to do after all.
+Well, yesterday, you said you wanted to add a bunch of flair.
+But before we can get started with that, you need to program the actual game first.
+So, let's start with that.
+I know you're not much of a programmer, I know how your Com Sci grades are.
+So maybe you could use a change in perspective.
+How about seeing programming as an making arguments with mathematical logic?
+After all, programming is just a bunch of logic.
+Uhh... I guess?
+So, you know what mathematical logic is right?
+You take Math 10 right?
+...
+Really?
+You academic atrocity.
+Finee, I guess I can teach you.
+So, let's start with the basics.
+So, you get it now?
+Good. Let's go to your place and get started then.
+Don't worry too much, it's just pong.
+Here, take this!
+Huh? What is this?
+A rubber duck?
+Yeah! It'll help you a lot with programming.
+Trust me! Just try it out when you're having trouble.
+Just talk to it, and it'll do its magic.
+See? That wasn't so hard was it?
+Now, let's move on to something a bit more advanced.
+That took a while, but see? Progress! Just a bit left we can leave for tomorrow.
+I'm going now, good night!
+Rest well!
+{i}With that, the coding was finished.{/i}
+{i}I was so tired, it took days to get the game to work, but I was so happy.{/i}
+{i}There was progress. Slowly, but surely, my dream was coming true.{/i}
+{b}DAY 4 - 4 DAYS LEFT{/b}
+Yo! [inputname]!
+Hey Emma! Why did you ask to meet me here?
+I thought we could take a break from the game for a bit.
+You've worked hard to learn how to code these past few days, and you even got the game working.
+So, why not take a break and look at some art?
+Also, you wanted to add some 'flair' to the game right?
+What better place than an art exhibit? You can get some inspirations here for the flair!
+You wanted themes right? Well, here you go!
+Let's go look around!
+That was fun!
+Did you have fun too?
+Aww... really?
+Sorry for dragging you along then.
+I just thought it would be fun to look at some art together.
+But at least you got some ideas for the game right?
+Yay! I had fun too!
+Today was great!
+And look! You got some ideas for the game too!
+Well, it's getting late now.
+We should head back home.
+Bye, [inputname]! See you tomorrow!
+{i}With that, the rest day ended.{/i}
+{i}With some inspiration, We could get started with the art tomorrow.{/i}
+DAY 5 - 3 DAYS LEFT
+Ey, [inputname]!
+Hi Emma! Why are we in a cafe?
+Well, I thought we could use a change of scenery for a bit.
+It's somewhat cozier here than at home right?
+I guess? It's not the cheapest place though.
+Don't worry about it!
+It's on me!
+Anyways, we gotta get started on the assets for the game.
+You know, the graphics and stuff for your 'flair'.
+We only got a couple of days left, so let's lock in, and get started!
+I am so not an artist.
+But hey, we got it!
+The game looks great! Just some small things to take care of, and we're done!
+What things?
+Just where to release the game.
+I mean, you want to release it right?
+But who would play it? I mean, it's just pong.
+Well, you never know. You could get lucky.
+Why not release it? We've worked hard on it after all.
+Might as well, right?
+It's getting late now though, so let's call it a night.
+Bye, [inputname]!
+{i}With that, the game was finished.{/i}
+{i}Just one last step, and my dream was coming true.{/i}
+{b}DAY 7 - FINAL DAY{/b}
+Finally, we're done!
+Just gotta release the thing!
+So, we gotta decide where and when to release it, and how to market it.
+Market it?
+Yeah! Maybe an ad or something.
+Why not? I mean, you want people to play it right?
+Sure.
+I already did a lot of research yesterday, did an all nighter and all.
+So, you just gotta look at what I found here.
+And that's that!
+Pretty quick right? Thanks to my amazing research skills.
+Anyway, we're done now!
+When we release the game, let's celebrate!
+{i}A FEW DAYS LATER.{/i}
+THREE!
+TWO!
+ONE!
+...
+And it's out!
+I can't believe we actually did it!
+Yeah! We did it!
+We made a game together!
+Thank you so much for working with me on this! It was so much fun!
+Hah! Sure you did!
+That's that!
+Let's make another game together!
+...Sure.
+Not right now though.
+Of course not!
+Now eat! This is a celebration after all!
+That food cost a lot of money, so you better eat a ton!
+{i}And with that, my dream came true.{/i}
+{i}Together with Emma, I'll go even further.{/i}
+{i}We'll make games that shake the world!{/i}
+{i}Beginning with pong, we'll make great games together, as comrades.{/i}
+{b}END{/b}
+Damn man, your loss.
+Anyways, I gotta go. See ya later.
+And with that, I never really got started on my game.
+Emma never brought it up again, and life just went on as normal.
+I got my degree, got a job, and honestly...
+I wish that I had taken her up on that offer.
+My dream was right there, but... it's too late now. Oh well.
+{b}Regretful Ending{/b}

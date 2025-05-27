@@ -90,7 +90,40 @@ label start:
         e "We've got a bunch of plans here now, but it's up to you to decide what you want."
         e "Prepare a timeline for us. Keep in mind though, we only have {color=#B30000}one week{/color}."
 
-        ##minigame 1 here
+    label m1w:
+        scene bg black
+        "Together, we brainstormed many possible additions to the game."
+        "Then, Emma estimated the amount of time it would take to add those additions."
+        "We thought of {b}'Programming Pong'{/b}, which would take {b}1.5 days.{/b}"
+        "{b}'Adding power-ups'{/b}, which would take {b}1 day.{/b}"
+        "{b}'Drawing themes'{/b}, which I wanted, which would take {b}2.5 days{/b}."
+        "{b}'Drawing the base art'{/b}, which would take {b}half a day{/b}."
+        "{b}'Adding a Story and Characters'{/b}, which would take {b}6 days{/b}."
+        "{b}'Adding Music'{/b}, which would take {b}2.8 days{/b}."
+        "{b}'Adding Microtransactions'{/b}, which would take {b}three fifths of a day{/b}."
+        "And {b}'Adding a Tutorial'{/b}, which would take {b}half a day{/b}."
+        "We also thought of a bunch of other things, but those were the main ones."
+        "We wanted to {b}maximise the amount of time we used{/b}, and we needed the {b}base art{/b} and {b}programming done at least{/b}."
+        "There was only one configuration of options which would allow for this to work, which is Programming Pong, Drawing the base art, Drawing themes, and adding:"
+        menu:
+            "Music":
+                "Wrong answer. Try again."
+                jump m1w
+            "Tutorial":
+                "Wrong answer. Try again."
+                jump m1w
+            "Power-ups": 
+                jump m1r
+            "Microtransactions":
+                "Wrong answer. Try again."
+                jump m1w
+
+    label m1r:
+        "Right! Power-ups!"
+
+        scene bg bedroom
+        with fade
+        show emma tired        
         
         e "So this is what you came up with?"
         e "Are you sure? Really, really sure?"
@@ -138,8 +171,38 @@ label start:
         e "Really?"
         e "You academic atrocity."
         e "Finee, I guess I can teach you."
+        show emma thinking
         e "So, let's start with the basics."
-        #EXPLAIN MATH LOGIC HERE
+        e "Let's say S and P are sets."
+        e "Like students, Math 10 professors, Chowking employees, and so on."
+        e "A categorical proposition expresses the relationship between two of these sets."
+        e "There's all S are P, meaning, obviously that all S are P."
+        e "For example, all gasses are fluids. All UPLB students are students."
+        e "Then there's no S are P, meaning that no S are P."
+        e "For example, no murderers are innocent. No cars are professors."
+        e "Easy, right?"
+        e "There's also some S are P, meaning some, possibly not all S are P."
+        e "An example is, some fries are potatoes. Some cars are red."
+        e "And finally, some S are not P, meaning some, possibly not all S are not P."
+        e "Some fries are not potatoes. Some cars are not red."
+        e "Get it?"
+        e "Good."
+        e "Then there's the compound propositions, made out of more than one simple propositions."
+        e "They're connected by logical connectors, of which there are five."
+        e "One is 'negation' which negates a proposition, marked by a squiggly (~) or 'not'."
+        e "For example, ~p, where p is 'All Roses are Red' reads; 'Not All Roses are Red."
+        e "Another is 'Conjunction' which is true if both propositions are true. It is denoted by 'p∧q' or 'p and q'"
+        e "For example, p∧q, where p is 'All Roses are Red' and q is 'All Violets are Blue' reads; 'All Roses are Red and All Violets are Blue'."
+        e "The third is 'Disjunction' which is true if either or both propositions are true. It is denoted by 'p∨q' or 'p or q'"
+        e "For example, p∧q, where p is 'All Roses are Red' and q is 'All Violets are Blue' reads; 'All Roses are Red or All Violets are Blue'."
+        e "The fourth is 'Implication' which is true unless the antecedent is true and the consequent is false."
+        e "The antecedent is the first proposition, and the consequent is the second proposition."
+        e "For example in the compound proposition 'If p then q', p is the antecedent and q is the consequent."
+        e "It is denoted by 'p→q' or 'if p then q'"
+        e "For example, p→q, where p is 'All Roses are Red' and q is 'All Violets are Blue' reads; 'If All Roses are Red then All Violets are Blue'."
+        e "And finally, the fifth is 'Biconditional' which is true if both propositions are either true or false."
+        e "It is denoted by 'p↔q' or 'p if and only if q'."
+        e "For example, p↔q, where p is 'All Roses are Red' and q is 'All Violets are Blue' reads; 'All Roses are Red if and only if All Violets are Blue'."
         show emma normal
         e "So, you get it now?"
        
@@ -148,14 +211,15 @@ label start:
         e "Good. Let's go to your place and get started then."
         e "Don't worry too much, it's just pong."
 
-    #Minigame 2 Tutorial Here
-
-        scene bg bedroom
-        show emma normal
-        e "See? That wasn't so hard was it?"
-        e "Now, let's move on to something a bit more advanced."
-    
-    #Minigame 2 Proper Here Day 1 -3
+        "She lied. It was so much harder than I thought."
+        "'After all, programming is just a bunch of logic' she said, but it was so much harder than that."
+        "But understanding the logic did help."
+        "It was like a piece of a puzzle, you could see that it was a piece of a puzzle, but you couldn't see the whole picture."
+        "It was there in the code, but code was a different monster all together."
+        "It showed the right places to go at times though, so it was worth learning all that, I suppose."
+        "It took three days to get the game to work."
+        "Two days of fumbling, half a day at stack Exchange, and another half a day staring blankly at the screen."
+        "But it was done."
 
         scene bg bedroom
         show emma tired
@@ -187,7 +251,25 @@ label start:
         show emma happy
         e "Let's go look around!"
 
-        #Explain Geometries Here.
+        with flashbulb
+
+        show emma thinking
+        "Together, we saw many different paintings and artworks."
+        "In the exhibit, we found a painting of a pyramid, of lightning, a lettuce, and planets."
+        e "Look at this one! It's so pretty!"
+        e "The composition looks weirdly amazing for how random these elements are."
+        e "You know, there's actually a lot of math in geometry."
+        e "Those planets? Spherical."
+        e "You can put a line, and a point not on said line, and if you put a line through that point, they would meet!"
+        e "It's not like the stuff you usually think about when you hear geometry, right?."
+        e "The stuff you usually hear from there is Euclidean Geometry like that pyramid, where if you do the same thing I said earlier, the lines won't intersect!"
+        e "There's also Hyperbolic Geometry, like that lettuce over there!"
+        e "If you put a line through that point, all lines would intersect with that line! Pretty cool right?"
+        e "And then there's Fractal Geometry, which is like that lightning over there."
+        e "If you notice, the artist uses perspective, that's also geometry, Projective Geometry."
+        e "It's cool that art has a lot of math hidden in it right? Though I'm not much of an art person."
+        
+        with flashbulb
 
         scene bg exhibit
         show emma happy
@@ -245,8 +327,9 @@ label start:
         e "You know, the graphics and stuff for your 'flair'."
         e "We only got a couple of days left, so let's lock in, and get started!"
 
-    #Minigame 3 Tutorial and Proper Here Day 5 - 6
+    #jump mini3
 
+    label amini3:
         scene bg cafe
         with fade
         show emma tired
@@ -286,8 +369,38 @@ label start:
         e "I already did a lot of research yesterday, did an all nighter and all."
         e "So, you just gotta look at what I found here."
 
-        #Minigame 4 Tutorial and Proper Here
+        label m4w:
+        e "{b}MobilePlay{/b} is a good place to release it."
+        e "Games there are usually free, and they have a lot of players."
+        e "A website called WeirdStatPresentations.com shows that the amount of players games there have is represented by the function {b}y=x/500^2+x.{/b}"
+        e "{b}Aploded{/b} also exists."
+        e "Games there are usually trash, lots of kids though."
+        e "WeirdStatPresentations.com shows that the amount of players games there have is represented by the function {b}y=2(x-2){/b}."
+        e "Weird stat presentations right? All verified though, pretty cool if you ask me."
+        e "In the {b}long term{/b}, which one would get us more players?"
 
+        menu:
+            "MobilePlay":
+                e "Are you sure? I don't know..."
+                menu:
+                    "Yes!":
+                        e "Right!"
+                        jump m4r
+                    "No...":
+                        e "All right, I'll say it again."
+                        jump m4w
+            "Aploded":
+                e "Are you sure? I don't know..."
+                menu:
+                    "Yes!":
+                        e "Really?"
+                        e "Think about it."
+                        jump m4w
+                    "No...":
+                        e "All right, I'll say it again."
+                        jump m4w
+
+        label m4r:
         show emma happy
         e "And that's that!"
         e "Pretty quick right? Thanks to my amazing research skills."
