@@ -1,4 +1,4 @@
-<h1><b>MatheLaunch!</b></h1> <p></p>is a Final Project Submission in partial fulfillment of the requirements of the course Math 10.
+<img alt="mathelaunch logo" src="source code/game/gui/overlay/title.png"><p></p>is a Final Project Submission in partial fulfillment of the requirements of the course Math 10.
 <p><p>
 Currently in <i>Version 0.2</i>, <b>the Visual Update</b>!
 <p>Version 0.2.1 is the release for Math 10 purposes, if any further updates are made, do not refer to those for Math 10 purposes.
